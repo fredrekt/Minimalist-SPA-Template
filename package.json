@@ -6,9 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "baseui": "^9.98.0",
+    "mdbreact": "^4.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,7 +22,15 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "plugins": [
+      "baseui"
+    ],
+    "rules": {
+      "baseui/deprecated-theme-api": "warn",
+      "baseui/deprecated-component-api": "warn",
+      "baseui/no-deep-imports": "warn"
+    }
   },
   "browserslist": {
     "production": [
@@ -30,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-baseui": "^9.98.0"
   }
 }

@@ -3,10 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import '@fortawesome/fontawesome-free/css/all.min.css'; 
+// import 'bootstrap-css-only/css/bootstrap.min.css'; 
+// import 'mdbreact/dist/css/mdb.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; import
+'bootstrap-css-only/css/bootstrap.min.css'; import
+'mdbreact/dist/css/mdb.css';
+//base web starts
+import {Client as Styletron} from 'styletron-engine-atomic';
+import {Provider as StyletronProvider} from 'styletron-react';
+import {LightTheme, BaseProvider} from 'baseui';
+//base web ends
+const engine = new Styletron();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StyletronProvider value={engine}>
+      <BaseProvider theme={LightTheme}>
+        <App />
+      </BaseProvider>
+    </StyletronProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
