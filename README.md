@@ -4,7 +4,7 @@ Try it
 > yarn add | npm install
 > yarn start | npm start
 
-## [Live Demo]()
+## Check out the [Live Demo](https://minimalist-spa.netlify.app/).
 
 ## Material Boostrap Design Documentation (React)
 For the Grid System, Text utilities and containers i use mdbreact. [Read more here](https://mdbootstrap.com/docs/react).
