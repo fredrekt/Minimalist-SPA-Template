@@ -1,7 +1,9 @@
 # A Minimalist Template of a Single Page Application. 
-Try it 
-> git clone (url)
+Try it yourself.
+> git clone git@github.com:fredrekt/Minimalist-SPA-Template.git
+
 > yarn add | npm install
+
 > yarn start | npm start
 
 ## Check out the [Live Demo](https://minimalist-spa.netlify.app/).
