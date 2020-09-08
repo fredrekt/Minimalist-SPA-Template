@@ -1,3 +1,9 @@
+# A Minimalist Template of a Single Page Application. 
+Try it 
+> git clone (url)
+> yarn add | npm install
+> yarn start | npm start
+
 ## [Live Demo]()
 
 ## Material Boostrap Design Documentation (React)
@@ -15,6 +21,7 @@ For the buttons, inputs and many other components i use Base Web. [Read more her
 
 > You have to configure the setup if you're gonna do it manually. Just refer to the documentation of BaseWeb. For this project however you don't need to do anything.
 
+## CRA Template
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
