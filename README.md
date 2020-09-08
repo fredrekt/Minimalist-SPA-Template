@@ -1,7 +1,14 @@
 ## [Live Demo]()
 
 ## Material Boostrap Design Documentation (React)
-[Read more here](https://mdbootstrap.com/docs/react).
+For the Grid System, Text utilities and containers i use mdbreact. [Read more here](https://mdbootstrap.com/docs/react).
+Try the package.
+
+Yarn 
+> yarn add mdbreact
+
+NPM
+> npm i --save mdbreact
 
 ## Base Web Design
 [Read more here](https://baseweb.design/).
