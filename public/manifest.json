@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Minimalist Template",
+  "name": "Template for minimalist single page application",
   "icons": [
     {
       "src": "favicon.ico",
