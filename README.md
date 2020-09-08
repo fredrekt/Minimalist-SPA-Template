@@ -11,7 +11,9 @@ NPM
 > npm i --save mdbreact
 
 ## Base Web Design
-[Read more here](https://baseweb.design/).
+For the buttons, inputs and many other components i use Base Web. [Read more here](https://baseweb.design/).
+
+> You have to configure the setup if you're gonna do it manually. Just refer to the documentation of BaseWeb. For this project however you don't need to do anything.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
