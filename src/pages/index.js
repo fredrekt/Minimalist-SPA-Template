@@ -1,15 +1,14 @@
 import React from 'react';
 import { MDBContainer } from 'mdbreact';
-import { Button } from 'baseui/button';
+import Layout from '../components/Layout';
 
 const HomePage = () => {
     return (
-        <div>
+        <Layout>
             <MDBContainer>
-            {/* <MDBBtn color="dark">Hello</MDBBtn> */}
-            <Button onClick={() => alert("click")}>Hello</Button>
+                <h1>Welcome to Homepage</h1>
             </MDBContainer>
-        </div>
+        </Layout>
     )
 }
 
