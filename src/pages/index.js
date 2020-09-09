@@ -169,16 +169,16 @@ const HomePage = () => {
                 </section>
                 <section id="sponsors-section">
                     <MDBRow className="justify-content-center sponsors-section py-5 my-5 align-items-center">
-                        <MDBCol md="3" lg="3" size="6">
+                        <MDBCol className="py-lg-0 py-md-0 py-3" md="3" lg="3" size="6">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5ewsDZoRCfpIjI-pcrIdup9xEupmlzPHaow&usqp=CAU" alt="" className="w-100 sponsor-img"/>
                         </MDBCol>
-                        <MDBCol md="3" lg="3" size="6">
+                        <MDBCol className="py-lg-0 py-md-0 py-3" md="3" lg="3" size="6">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGm6Pu_QaUM5hq1_jilpB78lwb4JyuVJdQ7Q&usqp=CAU" alt="" className="w-100 sponsor-img"/>
                         </MDBCol>
-                        <MDBCol md="3" lg="3" size="6">
+                        <MDBCol className="py-lg-0 py-md-0 py-3" md="3" lg="3" size="6">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRW-YmuDTCIwEYqVsyPHwWAs39csTJCRaG9Fw&usqp=CAU" alt="" className="w-100 sponsor-img"/>
                         </MDBCol>
-                        <MDBCol md="3" lg="3" size="6">
+                        <MDBCol className="py-lg-0 py-md-0 py-3" md="3" lg="3" size="6">
                             <img src="https://www.finsmes.com/wp-content/uploads/2020/04/vercel.png" alt="" className="w-100 sponsor-img"/>
                         </MDBCol>
                     </MDBRow>
