@@ -109,3 +109,49 @@ span > a:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
+.sponsors-section > img{
+  filter: grayscale(1);
+}
+.sponsor-img{
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.sponsor-img:hover{
+  transition: 0.5s;
+  filter: grayscale(0);
+}
+
+/* MEDIA QUERY STARTS */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 540px) { 
+  .display-1{
+    font-size: 3rem!important;
+  }
+  .display-2{
+    font-size: 3rem!important;
+  }
+  .display-3{
+    font-size: 3rem!important;
+  }
+  .display-4{
+    font-size: 3rem!important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+}
+/* MEDIA QUERY ENDS */
