@@ -13,7 +13,7 @@ const HomePage = () => {
     return (
         <Layout>
             <MDBContainer fluid>
-                <MDBRow className="">
+                <MDBRow id="home" className="">
                     <MDBCol className="align-self-center py-lg-0 py-md-0 py-3 text-center">
                         <div className="w-75 mx-auto">
                             <h1 className="h1-responsive">Hello World</h1>
@@ -27,7 +27,7 @@ const HomePage = () => {
                 </MDBRow>
             </MDBContainer>
             <MDBContainer className="my-5 py-5">
-                <MDBRow className="my-5 py-5 align-items-center">
+                <MDBRow id="our-story" className="my-5 py-5 align-items-center">
                     <MDBCol>
                         <h1 className="display-2">What is a Single Page Application?</h1>
                     </MDBCol>
